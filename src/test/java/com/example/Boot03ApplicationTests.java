@@ -19,7 +19,7 @@ class Boot03ApplicationTests {
         int age=20;
 
         String sex="男";
-        
+
         System.out.println("姓名"+name+"年龄"+age+"性别"+sex);
     }
 }
