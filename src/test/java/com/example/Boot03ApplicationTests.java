@@ -17,6 +17,6 @@ class Boot03ApplicationTests {
         String name="张三";
         int age=18;
         String sex="男";
-        System.out.println("姓名"+name+"年龄"+18);
+        System.out.println("姓名"+name+"年龄"+age+"性别"+sex);
     }
 }
