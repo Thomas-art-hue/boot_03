@@ -14,7 +14,7 @@ class Boot03ApplicationTests {
     @Test
     void contextLoads() {
         System.out.println("==============自我介绍==============");
-        String name="张三";
+        String name="李四";
         int age=18;
         System.out.println("姓名"+name+"年龄"+18);
     }
