@@ -13,13 +13,9 @@ class Boot03ApplicationTests {
 
     @Test
     void contextLoads() {
-        //测试盐值
-        String url = encryptor.encrypt("jdbc:mysql:///myhouse?serverTimezone=UTC");
-        String name = encryptor.encrypt("root");//你的数据库用户名
-        String password = encryptor.encrypt("430423");//你的数据库密码
-        System.out.println("盐值路径:" + url);
-        System.out.println("盐值用户:" + name);
-        System.out.println("验证密码:" + password);
+        System.out.println("==============自我介绍==============");
+        String name="张三";
+        int age=18;
+        System.out.println("姓名"+name+"年龄"+18);
     }
-
 }
